@@ -1,5 +1,5 @@
 import numpy as np
-from genomic_neuralnet.neuralnet.core import BackpropLayer
+from simplenet.core import BackpropLayer
 
 def test_layer_weights_have_correct_shape():  
     input_nodes = 4 

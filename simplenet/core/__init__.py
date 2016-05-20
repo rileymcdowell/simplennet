@@ -1,2 +1,2 @@
-from genomic_neuralnet.neuralnet.core.layer import Layer
-from genomic_neuralnet.neuralnet.core.backprop_layer import BackpropLayer
+from simplenet.core.layer import Layer
+from simplenet.core.backprop_layer import BackpropLayer

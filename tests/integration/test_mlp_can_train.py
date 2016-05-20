@@ -1,8 +1,8 @@
 from __future__ import print_function
 import numpy as np
 
-from genomic_neuralnet.neuralnet import get_mlp_network_regressor, get_mlp_network_classifier 
-from genomic_neuralnet.neuralnet.trainers import MlpTrainer 
+from simplenet import get_mlp_network_regressor, get_mlp_network_classifier 
+from simplenet.trainers import MlpTrainer 
 
 def test_can_execute_forward_pass():
     """

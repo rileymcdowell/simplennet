@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.special import expit as sigmoid
-from genomic_neuralnet.neuralnet.core import BackpropLayer
+from simplenet.core import BackpropLayer
 
 def sigmoid_derivative(x):
     return sigmoid(x) * (1-sigmoid(x))

@@ -1,7 +1,7 @@
 import numpy as np
-from genomic_neuralnet.neuralnet.network_creator \
+from simplenet.network_creator \
         import get_mlp_network_regressor, get_mlp_network_classifier
-from genomic_neuralnet.neuralnet import LinearLayer, SigmoidLayer, Network
+from simplenet import LinearLayer, SigmoidLayer, Network
 
 def test_can_create_and_activate_mlp_network_regressor():
     input_num = 3

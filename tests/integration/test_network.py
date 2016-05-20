@@ -1,5 +1,5 @@
 import numpy as np
-from genomic_neuralnet.neuralnet import LinearLayer, SigmoidLayer, Network
+from simplenet import LinearLayer, SigmoidLayer, Network
 
 def test_can_activate_network():
     input_num = 3

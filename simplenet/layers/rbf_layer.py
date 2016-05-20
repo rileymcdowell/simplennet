@@ -1,8 +1,8 @@
 import numpy as np
 import numpy.linalg as la
 from scipy.special import expit 
-from genomic_neuralnet.neuralnet.core import Layer
-from genomic_neuralnet.util import require_true 
+from simplenet.core import Layer
+from simplenet.util import require_true 
 
 _REQUIRE_TRUE_MESSAGE = 'Must have centers to activate RBF layer'
 

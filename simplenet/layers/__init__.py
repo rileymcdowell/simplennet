@@ -1,3 +1,3 @@
-from genomic_neuralnet.neuralnet.layers.sigmoid_layer import SigmoidLayer
-from genomic_neuralnet.neuralnet.layers.linear_layer import LinearLayer
-from genomic_neuralnet.neuralnet.layers.rbf_layer import RbfLayer
+from simplenet.layers.sigmoid_layer import SigmoidLayer
+from simplenet.layers.linear_layer import LinearLayer
+from simplenet.layers.rbf_layer import RbfLayer

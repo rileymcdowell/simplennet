@@ -1,5 +1,5 @@
 from __future__ import print_function
-from genomic_neuralnet.util import require_true, RequiredValueNotTrueException 
+from simplenet.util import require_true, RequiredValueNotTrueException 
 
 class Class(object):
     def __init__(self, attribute=None):

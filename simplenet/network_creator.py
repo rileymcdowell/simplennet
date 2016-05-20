@@ -1,5 +1,5 @@
-from genomic_neuralnet.neuralnet.network import Network
-from genomic_neuralnet.neuralnet.layers import LinearLayer, RbfLayer, SigmoidLayer
+from simplenet.network import Network
+from simplenet.layers import LinearLayer, RbfLayer, SigmoidLayer
 
 def get_rbf_network(num_inputs, num_hidden, num_outputs, centers=None, spread=1.):
     if num_hidden is None:

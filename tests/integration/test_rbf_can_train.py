@@ -1,8 +1,8 @@
 from __future__ import print_function
 import numpy as np
 
-from genomic_neuralnet.neuralnet import get_rbf_network
-from genomic_neuralnet.neuralnet.trainers import RbfTrainer
+from simplenet import get_rbf_network
+from simplenet.trainers import RbfTrainer
 
 from sklearn.cluster import KMeans
 

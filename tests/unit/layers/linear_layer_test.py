@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import pickle
-from genomic_neuralnet.neuralnet.layers import LinearLayer 
+from simplenet.layers import LinearLayer 
 
 def test_can_activate_on_multiple_samples_with_complex_shape():
     # Dead simple inputs. The key is that output arrays are correctly shaped.

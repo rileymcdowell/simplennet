@@ -1,5 +1,5 @@
 import numpy as np
-from genomic_neuralnet.neuralnet.layers import SigmoidLayer 
+from simplenet.layers import SigmoidLayer 
 
 def test_sigmoid_layer_activates_correctly():
     input_nodes = 3 

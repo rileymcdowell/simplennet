@@ -2,7 +2,7 @@ from __future__ import print_function
 import copy
 import numpy as np
 from numpy.linalg import pinv
-from genomic_neuralnet.neuralnet import SigmoidLayer, LinearLayer
+from simplenet import SigmoidLayer, LinearLayer
 
 class MlpTrainer(object):
     def __init__(self, mlp_network, learning_rate=1.0):

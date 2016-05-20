@@ -1,1 +1,3 @@
-from genomic_neuralnet.neuralnet.util.orthogonalizer import orthogonalize_vectors
+from simplenet.util.orthogonalizer import orthogonalize_vectors
+from simplenet.util.require_true import require_true, RequiredValueNotTrueException
+

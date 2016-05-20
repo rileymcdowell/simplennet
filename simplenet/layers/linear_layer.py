@@ -1,5 +1,5 @@
 import numpy as np
-from genomic_neuralnet.neuralnet.core import BackpropLayer
+from simplenet.core import BackpropLayer
 
 class LinearLayer(BackpropLayer):
     def __init__(self, num_inputs, num_neurons):

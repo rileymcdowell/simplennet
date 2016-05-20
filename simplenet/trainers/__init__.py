@@ -1,2 +1,2 @@
-from genomic_neuralnet.neuralnet.trainers.rbf_trainer import RbfTrainer
-from genomic_neuralnet.neuralnet.trainers.mlp_trainer import MlpTrainer
+from simplenet.trainers.rbf_trainer import RbfTrainer
+from simplenet.trainers.mlp_trainer import MlpTrainer

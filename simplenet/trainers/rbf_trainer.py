@@ -1,7 +1,7 @@
 import numpy as np
 import numpy.linalg as la
-from genomic_neuralnet.neuralnet import RbfLayer, LinearLayer
-from genomic_neuralnet.neuralnet.util import orthogonalize_vectors
+from simplenet import RbfLayer, LinearLayer
+from simplenet.util import orthogonalize_vectors
 
 class RbfTrainer(object):
     def __init__(self, rbf_network):

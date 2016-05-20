@@ -1,5 +1,5 @@
 import numpy as np
-from genomic_neuralnet.neuralnet.util import orthogonalize_vectors
+from simplenet.util import orthogonalize_vectors
 
 def test_does_not_mutate_first_selected_vector():
     """

@@ -1,5 +1,5 @@
 import numpy as np
-from genomic_neuralnet.neuralnet.core import Layer
+from simplenet.core import Layer
 
 class BackpropLayer(Layer):
     def __init__(self, num_inputs, num_neurons, rand_stddev=1):

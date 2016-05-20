@@ -1,4 +1,4 @@
-from genomic_neuralnet.neuralnet.layers import LinearLayer, RbfLayer, SigmoidLayer
+from simplenet.layers import LinearLayer, RbfLayer, SigmoidLayer
 from functools import reduce
 
 class Network(object):
